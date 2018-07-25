@@ -320,6 +320,10 @@ footer {
 
 }
 
+#contact-wrapper ul li a {
+	color: white;
+}
+
 #copyright {
 	font: .75em 'Open Sans', sans-serif;
 	color: #888;
