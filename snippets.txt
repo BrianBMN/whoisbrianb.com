@@ -1,0 +1,35 @@
+Fixed Tab
+
+<section class="tab">
+	<div class="tab-cart">						
+		<i class="fa fa-shopping-basket tab-cart__icon"></i>
+		<a class="tab-cart__link" href="#">My Cart</a>
+	</div>
+</section>
+
+.tab {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	top: 50px;
+	right: 0;
+	height: 50px;
+	width: 150px;
+	z-index: 1;
+	background: #ffffff;
+	border-top-left-radius: 25px; 
+	border-bottom-left-radius: 25px;	  
+}
+
+	.tab-cart {
+		margin-left: 2em;
+	} 
+
+Contact info
+
+<ul class="sidenav__profile-contact fa-ul">
+	<li><i class="fa-li fa fa-envelope" aria-hidden="true"></i>brian.a.bierma@gmail.com</li>
+	<li><i class="fa-li fa fa-twitter" aria-hidden="true"></i>@whoisbrianbmn</li>
+	<li><i class="fa-li fa fa-phone" aria-hidden="true"></i>651-998-9581</li>
+	<li><i class="fa-li fa fa-map-marker" aria-hidden="true"></i>Twin Cities, Minnesota</li>
+</ul>
